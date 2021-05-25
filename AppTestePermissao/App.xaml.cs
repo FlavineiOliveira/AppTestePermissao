@@ -1,6 +1,5 @@
-﻿using System;
+﻿using AppTestePermissao.Pages;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace AppTestePermissao
 {
@@ -10,7 +9,7 @@ namespace AppTestePermissao
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new PermissaoPage();
         }
 
         protected override void OnStart()
